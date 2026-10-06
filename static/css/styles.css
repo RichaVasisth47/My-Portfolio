@@ -1,0 +1,51 @@
+.navbar-brand i {
+    font-size: 1.8rem; /* Aap isko apne hisaab se 1.5rem ya 2rem bhi kar sakti hain */
+
+}
+
+
+/* Poore page ka background color set karne ke liye */
+body {
+    background-color: rosybrown; /* Aap is color code ko apne hisaab se badal sakti hain */
+}
+
+/* Profile photo ko aur attractive banane ke liye */
+img.rounded-circle {
+    border: 3px solid #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Card container styling */
+.card {
+    background-color: #212529 !important;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Card titles aur descriptions ko white karne ke liye */
+.card .card-title,
+.card h5 {
+    color: #ffffff !important;
+}
+
+.card .card-text,
+.card p {
+    color: #e0e0e0 !important;
+}
+
+/* View Project Button styling */
+.card .btn,
+.card a.btn {
+    background-color: #bc8f8f !important;
+    border-color: #bc8f8f !important;
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
+/* Navbar background and border matching the rosybrown theme */
+.navbar {
+    background-color: #bc8f8f !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}

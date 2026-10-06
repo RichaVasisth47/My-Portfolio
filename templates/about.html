@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #bc8f8f; border-bottom: 1px solid rgba(0,0,0,0.1);">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center text-black" href="{{ url_for('home') }}">
+            <i class="bi bi-award-fill me-2" style="font-size: 1.5rem; color: #000000;"></i>
+            Richa Vasisth
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="{{ url_for('home') }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="{{ url_for('about') }}">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="{{ url_for('contact') }}">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Main Content Container -->
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card p-4 shadow-sm" style="background-color: #212529 !important; border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 10px;">
+                    <div class="card-body text-white">
+                        <h2 class="card-title mb-4 text-center">About Me</h2>
+                        <p class="card-text mb-3">
+                            Hello! I am Richa Vasisth, a passionate Python Developer and web enthusiast. I specialize in building dynamic, user-friendly applications using Python, Flask, and modern web technologies.
+                        </p>
+                        <p class="card-text mb-3">
+                            This portfolio is a showcase of my projects—ranging from horror movie trackers and blog applications to interactive Python games. I love building practical solutions, exploring code, and continuously expanding my technical skills.
+                        </p>
+                        <div class="text-center mt-4">
+                            <a href="{{ url_for('home') }}" class="btn" style="background-color: #bc8f8f !important; border-color: #bc8f8f !important; color: #ffffff !important;">Back to Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
