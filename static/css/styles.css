@@ -49,3 +49,22 @@ img.rounded-circle {
     background-color: #bc8f8f !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+footer {
+    background-color: #1a1a1a55; /* Thoda dark ya alag background */
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer a {
+    color: #ff9999;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
